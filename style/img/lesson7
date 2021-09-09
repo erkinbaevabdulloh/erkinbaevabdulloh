@@ -1,0 +1,47 @@
+body {
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div {
+  background-color: yellow;
+  width: 300px;
+  height: 280px;
+  margin: 250px auto;
+  position: relative;
+  border-radius: 70px;
+  
+}
+div::after {
+    content: '';
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    border-radius: 0 0 0 70px;
+    bottom: 0;
+    left: 0;
+}
+div::before {
+    content: '';
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0 0 70px 0;
+    bottom: 0;
+    right:  0;
+}
+
+
+
+
+
+
+
+
+
+ <div></div>

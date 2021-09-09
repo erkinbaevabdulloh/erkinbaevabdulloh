@@ -1,0 +1,33 @@
+#section__start {
+  background-image: url("../style/img/lights.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+.carousel-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.carousel-item:first-child {
+  background-image: url(../style/img/image1.jpg);
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url(../style/img/image2.jpg);
+}
+
+.carousel-item:last-child {
+  background-image: url(../style/img/image3.jpg);
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 8px !important;
+  height: 8px !important;
+}
+/*# sourceMappingURL=lesson22style.css.map */

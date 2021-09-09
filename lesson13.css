@@ -1,0 +1,41 @@
+.navbar {
+    opacity: .7;
+    border-bottom: 3px solid blue;
+}
+  /* ! header */
+  #header {
+      background-image: url('../style/img/photo_2021-09-02_09-57-26.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 650px;
+      position: relative;
+ }
+    .dark {
+        position: absolute;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .inner {
+        padding-top: 150px;
+    }
+    .header__icon {
+        color: rgb(113, 113, 238);
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .section__icon {
+        color: #fff;
+        background-color: #333;
+        border-radius: 5px;
+        padding: 5px;
+    } 
+
+     #Share {
+         background-color: #008ed6;
+         background-image: linear-gradient(120deg, #008ed6, #008);
+         }

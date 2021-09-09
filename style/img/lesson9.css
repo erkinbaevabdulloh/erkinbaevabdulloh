@@ -1,0 +1,316 @@
+ /* .block {
+  width: 600px;
+  height: 600px;
+  background-color: rgb(89, 121, 110);
+  position: relative;
+}
+.box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  animation: box 3s  infinite;
+
+}
+
+.box1 {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+  animation: box1 3s infinite ;
+  left: 100px;
+  top: 100px;
+}
+
+.box2 {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation: box2 3s infinite ;
+}
+.box3 {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  animation: box3 3s infinite ;
+  left:  50px;
+  top: 50px;
+}
+
+ .box4 {
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  position: absolute;
+  animation: box4 1s infinite;
+  left: 250px;
+  top: 250px;
+} 
+.box5 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  animation: box5 3s infinite;
+  left: 200px;
+  top: 200px; 
+}
+.box6 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  animation: box6 3s infinite;
+  left: 150px;
+  top: 150px; 
+} 
+
+
+
+
+
+@keyframes box {
+  to, from {
+    left: 0;
+    top: 0;
+
+}
+25% {
+  top: 0;
+  left: 100%;
+  transform: translateX(-100%);
+}
+50% {
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%,-100%);
+
+}
+
+75% {
+  top: 100%;
+  left: 0;
+  transform: translateY(-100%);
+  }
+}
+
+
+@keyframes box1 {
+  to, from {
+    left: 100px;
+    top: 100px;
+  }
+25% {
+    top: 100px;
+    left: 450px;
+
+}
+50% {
+  top: 450px;
+  left: 450px;
+
+}
+75% {
+  top: 450px;
+  left: 100px;
+  }
+}
+
+@keyframes box2 {
+  to, from {
+  background-color: black;
+  /* transform:rotate(100deg) */
+
+
+ 
+
+  /* }
+  25% {
+  background-color: green;
+  border-radius: 50%;
+
+  }
+  50% {
+    background-color: blue;
+
+  }
+  75% {
+    background-color: red;
+  }
+}
+
+ @keyframes box3 {
+  to, from {
+    left: 50px;
+    top: 50px;
+
+}
+25% {
+  top: 50px;
+  left: 500px;
+}
+50% {
+  top: 500px;
+  left: 500px;
+
+} 
+
+75% {
+  top: 500px;
+  left: 50px;
+  }
+}
+
+
+@keyframes box5 {
+  to, from {
+  left: 200px;
+  top: 200px;
+}
+25% {
+  top: 200px;
+  left: 350px;
+}
+50% {
+top: 350px;
+left: 350px;
+
+}
+75% {
+top: 350px;
+left: 200px;
+ }
+  
+}
+
+
+@keyframes box6 {
+  to, from {
+  left: 150px;
+  top: 150px;
+}
+25% {
+  top:150px;
+  left: 400px;
+
+
+}
+50% {
+top: 400px;
+left: 400px;
+
+}
+75% {
+top: 400px;
+left: 150px;
+ }
+  
+} */ 
+   
+ 
+   /* * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+
+  }
+
+   .header {
+    background-image: url(https://static.wikia.nocookie.net/rustarwars/images/c/c5/BattlefrontDICE_Galaxy.png/revision/latest?cb=20180520070932); 
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 100px;
+  
+}
+
+.box {
+  background-color: rgb(77, 69, 69);
+  width: 800px;
+  height: 250px;
+  margin: 250px auto;
+  position: relative;
+}
+
+.box1 {
+    background-image: url(https://img1.freepng.ru/20180419/bhw/kisspng-computer-icons-laborer-female-5ad87e2b6e0a39.9384034615241375154507.jpg);
+    background-size: cover; 
+    position: relative;
+    margin: 250px auto; 
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+
+}
+
+
+.box3 {
+  background-color: rgb(77, 69, 69);
+  width: 800px;
+  height: 250px;
+  background-size: cover;
+  margin: 250px auto;
+  position: relative;
+
+}    
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+ /* * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+ }
+
+ img {
+   width: 700px;
+   height: 600px;
+   position: relative;
+ }
+
+ .box {
+   width: 700px;
+   height: 600px;
+   position: relative;
+ }
+
+  p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 30px;
+    animation: hello 3s forwards;
+
+  }
+  @keyframes hello {
+    from {
+      bottom: 100px;
+      opacity: 0;
+
+    }
+    to {
+      bottom: 50%;
+      opacity: 1;
+    }
+  }
+
+ */

@@ -1,0 +1,276 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: 'montserrat',
+  sans-serif;
+}
+
+.container {
+  display: flex;
+
+  width: 1200px;
+  border: 1px solid red;
+  margin: 0 auto;
+
+}
+ul {
+  list-style: none;
+
+}
+a {
+  text-decoration: none;
+}
+
+   header 
+
+   #header {
+     background-color: #445164;
+     color: #fff;
+     padding: 50px 0;
+   }
+   .header__text  {
+     display: flex;
+     margin-bottom: 20px;
+     
+   }
+   .header__content{
+    padding-right: 50px;
+
+   }
+   .header__text:last-child {
+     margin: 0;
+   }
+   .header__h1 {
+     margin-bottom: 30px;
+   }
+   .header__text:last-child {
+     margin: 0;
+   }
+
+   .header_bl2 {
+     width: 500px;
+     height: 200px;
+     background-color: white;
+     
+   }
+      
+
+   #sectionAbout {
+   padding:50px 0;
+   }
+   .sectionAbout__content {
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .sectionAbout__content {
+
+   }
+
+   .header__aboout {
+    width: 100px;
+    height: 100px;
+    background-color: #445164;
+  } 
+   
+
+ /* !sectionDignity */
+
+
+  /* #sectionDignity {
+    background-color: #f3f4f5;
+    padding: 50px 0 20px 0;
+
+  }
+  .sectionDignity_content {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .sectionDignity__item {
+    display: flex;
+    margin-bottom: 30px;
+    width: 50%;
+
+  }
+  .sectionDignity__item {
+    margin-right: 10px;
+
+  }
+
+  .sectionDignity__item:nth-child {
+    margin-right: 50px;
+  }
+
+
+ /* 
+ .block1 {
+   background-color: rgb(61, 53, 53);
+ }
+/* 
+ .block {
+  width: 400px;
+  height: 400px;
+  margin-left: 500px;
+  margin-top: 250px;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transition: 2s all;
+
+}
+
+.img1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlgFIAW5_WsnFNYIH3IsGVgE-M_3P-3YTGw&usqp=CAU");
+  border-radius: 100% 0 0 0;
+}
+
+.img2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6F-JUbycnt13WcX7ZLQQkzYn-x5Sw1Q_ZFg&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  right: 0;
+  border-radius: 0 100% 0 0;
+
+
+}
+
+.img3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-JSXSEXWXmmLZVLUbzir2XCVekbGJl3wenA&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 0;
+  right: 0;
+  border-radius: 0 0 100% 0;
+}
+
+.img4 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8GpZJJ5dikCr7PDQ-UVzhFrNRmMJ9WANcGQ&usqp=CAU');
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 0 100%;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover {
+  border-radius: 0;
+} */
+
+
+/* 
+.traffic-light {
+  background-color: #333;
+  width: 150px;
+  height: 440px;
+  border-radius: 10px;
+  border: 3px solid #222;
+  display: inline-block;
+} 
+
+.block {
+  background-color: #666;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #222;
+  margin-left: 12px;
+  margin-top: 16px;
+}  
+
+.yellow {
+  position: relative;
+  color: white;
+}
+
+.block1 :hover {
+  background-color: red;
+
+}
+.block2 :hover {
+  background-color: yellow;
+
+}
+.block3 :hover {
+  background-color: green;
+
+}
+
+
+
+
+
+
+
+
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+} */
+
+
+
+
+.box {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  transition: 2s;
+animation: box 2s infinite;
+  
+
+
+}
+@keyframes box {
+  0%,100%{
+
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 0%;
+    background-color: red;
+
+  }
+ 25%{
+  border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 00%;
+    border-top-left-radius: 50%;
+  background-color: blue;
+ } 
+
+
+50%{
+  border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+  background-color: black;
+ } 
+ 75%{
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  background-color: yellow;
+ } 
+}
+
+  
+
